@@ -188,3 +188,73 @@
   height: 79px;
   background: #222224;
 }
+
+.products_center {
+  width: 1140;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products_box{
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  gap: 30px;
+}
+
+.products_item {
+    width: 360px;
+    height: 581px;
+    background: grey;
+}
+
+
+.products_item_img{
+    width: 360px;
+    height: 420px;
+   background-image: url(img/man.png);
+}
+
+.products_item_img2{
+    width: 360px;
+    height: 420px;
+   background-image: url(img/woman.png);
+}
+
+.products_item_img3{
+    width: 360px;
+    height: 420px;
+   background-image: url(img/man2.png);
+}
+
+.products_item_text{
+  text-align: left;
+  padding: 25x 16px 20px;
+}
+
+.products_item_text p:nth-child(2){
+  margin: 12px 0 18px;
+  color: #222;
+  font-size: 14px;
+}
+
+.products_item_text p:nth-child(3){
+  margin: 12px 0 18px;
+  color: red;
+}
+
+.products_button{
+  width: 212px;
+  height: 48px;
+  color: red;
+  border: 1px solid red;
+  background: #F4F4F4;
+  margin: 48px 0 95px;
+}
+
+.products_button:hover{
+  background-color: red;
+  color: #fff;
+  background: 1px solid #F4F4F4;
+  cursor: pointer;
+}
