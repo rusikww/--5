@@ -1,0 +1,158 @@
+/* ГЛАВНЫЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #222;
+  height: 75px;
+}
+
+.header__center {
+  height: 100%;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon1 {
+  margin-right: 41px;
+}
+
+.header__icon2 {
+  padding-top: 9px;
+}
+
+.header__icon4 {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+/* MAIN */
+
+.section__hero {
+  background-color: #F1E4E6;
+  height: 764px;
+}
+
+.hero__center {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.hero__left {
+  width: 50%;
+}
+
+.hero__img {
+  margin-left: -227px;
+}
+
+.hero__right {
+  width: 50%;
+  height: 92px;
+  margin-top: 290px;
+  margin-left: 64px;
+  padding-left: 16px;
+  border-left: 12px solid #F16D7F;
+  font-family: Lato;
+}
+
+.hero__p_big {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero__p_small {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hero__p_small span {
+  color: #F16D7F;
+}
+
+
+.section__offer {
+  min-height: 470px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.offer_center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.offer_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+} 
+
+.offer_small1{
+    width: 360px;
+    height: 260px;
+    background-image: url(img/offer1.jpg);
+}
+
+.offer_small2{
+    width: 360px;
+    height: 260px;
+    background-image: url(img/offer2.jpg);
+}
+
+.offer_small3{
+    width: 360px;
+    height: 260px;
+    background-image: url(img/offer3.jpg);
+}
+
+.offer_big{
+    width: 1140px;
+    height: 180px;
+    background-image: url(img/offer4.jpg);
+}
+
+.section__products {
+  height: 300px;
+  background: #fff;
+}
+
+.section__feature {
+  height: 341px;
+  background: #222224;
+}
+
+/* FOOTER */
+
+.footer__top {
+  height: 448px;
+  background: #F4F4F4;
+}
+
+.footer__bottom {
+  height: 79px;
+  background: #222224;
+}
